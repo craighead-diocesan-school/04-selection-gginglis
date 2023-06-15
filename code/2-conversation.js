@@ -5,16 +5,26 @@
 function conversation() {
   alert('Welcome to my conversation program.')
 
-  alert('Do you like cycling? Answer yes or no.')
+  alert('Do you like football? Answer yes or no.')
   let answer = prompt()
 
   if (answer == 'yes') {
-    alert("That's good - you will get very fit.")
+    alert("YEAHHHHHHH")
+    alert('What team do you support')
+    let team = prompt()
+
+    if (team == 'man city') {
+      alert('YEAHHHHHHH')
+    } else {
+      alert('IMAGINE LOSING')
+    }
   } else {
-    alert('Perhaps you like some other sport.')
+    alert('YOU SUCKKK BOOOOOOO')
   }
 
-  alert('Goodbye')
+
+
+  alert('cya')
 }
 
 function age() {
