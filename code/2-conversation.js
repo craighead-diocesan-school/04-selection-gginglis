@@ -21,9 +21,6 @@ function conversation() {
   } else {
     alert('YOU SUCKKK BOOOOOOO')
   }
-
-
-
   alert('cya')
 }
 
