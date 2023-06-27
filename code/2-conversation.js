@@ -25,5 +25,13 @@ function conversation() {
 }
 
 function age() {
-  // write your code here
+
+  let age = prompt('how old are you')
+  age = Number(age)
+
+  if (age < 18) {
+    alert('bro cant vote 😎')
+  } else if (age >= 18) {
+    alert('bro can vote 🤓')
+  }
 }
